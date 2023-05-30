@@ -44,7 +44,7 @@ function encriptar(){
         textoEncriptado = texto.replace( /a|e|i|o|u/g, function(matched){return obj_letters[matched]});
         console.log(textoEncriptado);
         mensajeResultado.textContent = textoEncriptado;
-        scrollSuave('.container-elementos-salida', 500, 0);
+        // scrollSuave('.container-elementos-salida', 500, 0);
     }
 }
 
@@ -75,7 +75,7 @@ function desencriptar(){
         textoDesEncriptado = texto.replace( /ai|enter|imes|ober|ufat/g, function(matched){return obj_letters[matched]});
         console.log(textoDesEncriptado);
         mensajeResultado.textContent = textoDesEncriptado;
-        scrollSuave('.container-elementos-salida', 500, 0);
+        // scrollSuave('.container-elementos-salida', 500, 0);
     }
 }
 

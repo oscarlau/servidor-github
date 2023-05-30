@@ -24,9 +24,9 @@ function encriptar(){
         if(contenedorImagenResultado.classList.contains('ocultar') && mensajeNoEncontrado.classList.contains('ocultar') && contenedorParrafo.classList.contains('ocultar')){
             ocultarCamposDeResultado();
             mostrarVistasSinResultado();
-            agregarAlert();
+            // agregarAlert();
         }else{
-            agregarAlert();
+            // agregarAlert();
         }
     }else{
         ocultarVistasSinResultado();
@@ -55,9 +55,9 @@ function desencriptar(){
         if(contenedorImagenResultado.classList.contains('ocultar') && mensajeNoEncontrado.classList.contains('ocultar') && contenedorParrafo.classList.contains('ocultar')){
             ocultarCamposDeResultado();
             mostrarVistasSinResultado();
-            agregarAlert();
+            // agregarAlert();
         }else{
-            agregarAlert();
+            // agregarAlert();
         }
     }else{
         ocultarVistasSinResultado();
